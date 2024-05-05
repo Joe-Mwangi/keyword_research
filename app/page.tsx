@@ -18,6 +18,7 @@ export default function Home() {
     ecosia: [],
     duck: [],
     yandex: [],
+    yahoo: [],
   });
 
   const debouncedSearch = debounce(async (value: string) => {

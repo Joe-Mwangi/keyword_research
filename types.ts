@@ -5,4 +5,5 @@ export interface Results {
   ecosia: [];
   duck: [];
   yandex: [];
+  yahoo: [];
 }

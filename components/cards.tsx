@@ -15,6 +15,8 @@ export const Cards: React.FC<Props> = ({ data, loading }) => {
       <ResultCard data={data.duck} loading={loading} title="DuckDuckGo" />
 
       <ResultCard data={data.brave} loading={loading} title="Brave" />
+      <ResultCard data={data.yahoo} loading={loading} title="Yahoo" />
+
       <ResultCard data={data.ecosia} loading={loading} title="Ecosia" />
       <ResultCard data={data.yandex} loading={loading} title="Yandex" />
     </div>
