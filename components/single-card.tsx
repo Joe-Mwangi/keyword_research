@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Loader2 } from "lucide-react";
-import { GoogleIcon } from "./icons";
 import { ClipboardCopy } from "./copy";
 
 type Props = {

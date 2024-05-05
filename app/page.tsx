@@ -1,5 +1,4 @@
 "use client";
-import { Loader2 } from "lucide-react";
 import { ChangeEvent, useState } from "react";
 import axios from "axios";
 import { Input } from "@/components/ui/input";
