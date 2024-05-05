@@ -15,6 +15,8 @@ export default function Home() {
     brave: [],
     google: [],
     bing: [],
+    ecosia: [],
+    duck: [],
   });
 
   const debouncedSearch = debounce(async (value: string) => {
