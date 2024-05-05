@@ -4,4 +4,5 @@ export interface Results {
   bing: [];
   ecosia: [];
   duck: [];
+  yandex: [];
 }
