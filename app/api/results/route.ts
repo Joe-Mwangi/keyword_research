@@ -13,9 +13,13 @@ export async function POST(req: Request) {
   const bingRes = await axios.get(
     `https://api.bing.com/osjson.aspx?query=${search}`
   );
+  const googeRes = await axios.get(
+    `https://www.google.com/complete/search?q=${search}&client=firefox`
+  );
   const res = {
     bing: bingRes.data[1],
     brave: braveRes.data[1],
+    google: googeRes.data[1],
   };
   return NextResponse.json(res);
 }
